@@ -1,0 +1,1711 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="buttonGroup1.add(oneTime);&#xa;buttonGroup1.add(fourTime);"/>
+      </AuxValues>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="allWindowsLayered" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="allWindowsLayered" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JLayeredPane" name="allWindowsLayered">
+      <Properties>
+        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[792, 462]"/>
+        </Property>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[720, 420]"/>
+        </Property>
+        <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[600, 350]"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="tooManyButtonsErrorWindow" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="comparisonWindow" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" rootIndex="2" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Component id="blankFieldErrorWindow" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" rootIndex="3" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="weightingSettingsWindow" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" rootIndex="4" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Component id="notDoubleErrorWindow" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" rootIndex="5" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Component id="buttonNotSelectedErrorWindow" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" rootIndex="6" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                      <Component id="scholarInfoWindow" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" rootIndex="7" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Component id="scholarTrueFalseWindow" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" rootIndex="8" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Component id="rankingWindow" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" rootIndex="9" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Component id="collegeInfoWindow" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" rootIndex="10" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Component id="CollegesToCompareWindow" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" rootIndex="11" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Component id="collegeNotFoundErrorWindow" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="tooManyButtonsErrorWindow" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="comparisonWindow" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" rootIndex="2" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Component id="blankFieldErrorWindow" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" rootIndex="3" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="weightingSettingsWindow" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" rootIndex="4" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Component id="notDoubleErrorWindow" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" rootIndex="5" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Component id="buttonNotSelectedErrorWindow" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" rootIndex="6" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Component id="scholarInfoWindow" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" rootIndex="7" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Component id="scholarTrueFalseWindow" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" rootIndex="8" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Component id="rankingWindow" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" rootIndex="9" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Component id="collegeInfoWindow" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" rootIndex="10" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Component id="CollegesToCompareWindow" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" rootIndex="11" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Component id="collegeNotFoundErrorWindow" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="comparisonWindow">
+          <Properties>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[720, 420]"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="comparisonWindowExit" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="toRankings" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="305" max="32767" attributes="0"/>
+                      <Component id="comparisonWindowTitle" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="290" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="midCareerSalaryComparison" min="-2" max="-2" attributes="0"/>
+                          <Component id="loanPayoffPeriodComparison" min="-2" max="-2" attributes="0"/>
+                          <Component id="ROIComparison" min="-2" max="-2" attributes="0"/>
+                          <Component id="upfrontCostComparison" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="earlyCareerSalaryComparison" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                      <Component id="comparisonWindowTitle" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="92" max="-2" attributes="0"/>
+                      <Component id="ROIComparison" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="loanPayoffPeriodComparison" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="upfrontCostComparison" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="earlyCareerSalaryComparison" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="midCareerSalaryComparison" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="94" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="comparisonWindowExit" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="toRankings" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="ROIComparison">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Your return on investment will be greater by $"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="comparisonWindowTitle">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Grande" size="18" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Title College 1"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="loanPayoffPeriodComparison">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Your loan payoff period will be less by"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="upfrontCostComparison">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Your upfront cost will be less by $"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="earlyCareerSalaryComparison">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Your salary one year after graduation will be greater by $"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="midCareerSalaryComparison">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Your salary ten years after graduation will be greater by $"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="comparisonWindowExit">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Exit"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="comparisonWindowExitActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="toRankings">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Back to Rankings"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="toRankingsActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="blankFieldErrorWindow">
+          <Properties>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[720, 420]"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace pref="300" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="blankFieldErrorMessage" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="286" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="ErrorTitle1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="321" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="errorMessageAcknowledge1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="313" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="151" max="-2" attributes="0"/>
+                      <Component id="ErrorTitle1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="blankFieldErrorMessage" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="errorMessageAcknowledge1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="164" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="blankFieldErrorMessage">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Please fill in all fields"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="errorMessageAcknowledge1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Okay"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="errorMessageAcknowledge1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ErrorTitle1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Grande" size="24" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Error"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="weightingSettingsWindow">
+          <Properties>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[720, 420]"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="weightingSettingsWindowExit" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="weightRankingsImplement" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="notImporantLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+                                      <Component id="neutralLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                                      <Component id="importantLabel" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="167" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="midCareerSalaryWeightingLabel" min="-2" max="-2" attributes="0"/>
+                                          <Component id="upfrontCostWeightingLabel" min="-2" max="-2" attributes="0"/>
+                                          <Component id="ROIWeightingLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="loanPayoffPeiodWeightingLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="earlyCareerSalaryWeightingLabel" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="ROIWeighting" alignment="1" min="-2" pref="250" max="-2" attributes="0"/>
+                                          <Component id="loanPayoffPeriodWeighting" alignment="1" min="-2" pref="250" max="-2" attributes="0"/>
+                                          <Component id="upfrontCostWeighting" alignment="1" min="-2" pref="250" max="-2" attributes="0"/>
+                                          <Component id="midCareerSalaryWeighting" alignment="1" min="-2" pref="250" max="-2" attributes="0"/>
+                                          <Component id="earlyCareerSalaryWeighting" min="-2" pref="250" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="89" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="weightingSettingsTitle" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="209" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="weightingSettingsTitle" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="87" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="notImporantLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="neutralLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="importantLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="ROIWeighting" min="-2" max="-2" attributes="0"/>
+                          <Component id="ROIWeightingLabel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="loanPayoffPeriodWeighting" min="-2" max="-2" attributes="0"/>
+                          <Component id="loanPayoffPeiodWeightingLabel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="upfrontCostWeighting" min="-2" max="-2" attributes="0"/>
+                          <Component id="upfrontCostWeightingLabel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="midCareerSalaryWeighting" min="-2" max="-2" attributes="0"/>
+                          <Component id="midCareerSalaryWeightingLabel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="earlyCareerSalaryWeighting" min="-2" max="-2" attributes="0"/>
+                          <Component id="earlyCareerSalaryWeightingLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="weightingSettingsWindowExit" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="weightRankingsImplement" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="weightingSettingsTitle">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Grande" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Weight Your Preferences"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="notImporantLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Grande" size="10" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Not Important"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="neutralLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Grande" size="10" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Neutral"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="importantLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Grande" size="10" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Important"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSlider" name="ROIWeighting">
+            </Component>
+            <Component class="javax.swing.JLabel" name="ROIWeightingLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Return on Investment (ROI)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="loanPayoffPeiodWeightingLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Loan Payoff Period"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSlider" name="loanPayoffPeriodWeighting">
+            </Component>
+            <Component class="javax.swing.JSlider" name="upfrontCostWeighting">
+            </Component>
+            <Component class="javax.swing.JLabel" name="upfrontCostWeightingLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Upfront Cost"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="midCareerSalaryWeightingLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Mid-Career Salary"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSlider" name="midCareerSalaryWeighting">
+            </Component>
+            <Component class="javax.swing.JLabel" name="earlyCareerSalaryWeightingLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Early-Career Salary"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSlider" name="earlyCareerSalaryWeighting">
+            </Component>
+            <Component class="javax.swing.JButton" name="weightRankingsImplement">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Weight Rankings"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="weightRankingsImplementActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JToggleButton" name="weightingSettingsWindowExit">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Exit"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="weightingSettingsWindowExitActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="notDoubleErrorWindow">
+          <Properties>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[720, 420]"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace pref="262" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="notDoubleErrorMessageLine1" min="-2" pref="228" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="230" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="ErrorTitle" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="318" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="errorMessageAcknowledge" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="310" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="notDoubleErrorMessageLine2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="266" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="146" max="-2" attributes="0"/>
+                      <Component id="ErrorTitle" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="notDoubleErrorMessageLine1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="notDoubleErrorMessageLine2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="errorMessageAcknowledge" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="147" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="notDoubleErrorMessageLine1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Please enter a number for all fields"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="errorMessageAcknowledge">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Okay"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="errorMessageAcknowledgeActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ErrorTitle">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Grande" size="24" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Error"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="notDoubleErrorMessageLine2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value=" relating to dollar amounts"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="buttonNotSelectedErrorWindow">
+          <Properties>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[720, 420]"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="274" max="-2" attributes="0"/>
+                      <Component id="buttonNotSelectedErrorMessage" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="273" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="errorMessageAcknowledge2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="321" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="ErrorTitle2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="328" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace pref="154" max="32767" attributes="0"/>
+                      <Component id="ErrorTitle2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="buttonNotSelectedErrorMessage" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="errorMessageAcknowledge2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="161" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="buttonNotSelectedErrorMessage">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Please select a radio button"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="errorMessageAcknowledge2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Okay"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="errorMessageAcknowledge2ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ErrorTitle2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Grande" size="24" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Error"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="scholarInfoWindow">
+          <Properties>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[720, 420]"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="window4Exit" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="addMoreScholars" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="finishAddingScholars" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="0" pref="166" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="window4Title" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="186" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="window4Question1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="scholarAmount" min="-2" pref="199" max="-2" attributes="0"/>
+                                          <Group type="102" attributes="0">
+                                              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="oneTime" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="fourTime" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="196" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="window4Title" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="123" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="scholarAmount" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="window4Question1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="oneTime" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="fourTime" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="142" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="finishAddingScholars" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="addMoreScholars" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="window4Exit" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="window4Title">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Grande" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Input Scholarship Information"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="window4Question1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Scholarship Amount:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="fourTime">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Payment Repeated annually"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="oneTime">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="One-time payment"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="oneTimeFocusGained"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="oneTimeActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="scholarAmount">
+            </Component>
+            <Component class="javax.swing.JButton" name="finishAddingScholars">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Finished Adding Scholarships"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="finishAddingScholarsActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="addMoreScholars">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Add Another Scholarship"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addMoreScholarsActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="window4Exit">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Exit"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="window4ExitActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="scholarTrueFalseWindow">
+          <Properties>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[720, 420]"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="218" max="-2" attributes="0"/>
+                              <Component id="scholarPresenceFalse" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="133" max="-2" attributes="0"/>
+                              <Component id="scholarPresenceTrue" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="234" max="-2" attributes="0"/>
+                              <Component id="window3Question1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="219" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="167" max="-2" attributes="0"/>
+                      <Component id="window3Question1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="scholarPresenceFalse" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="scholarPresenceTrue" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="174" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="window3Question1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Are you a recipient of any scholarships?"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="scholarPresenceTrue">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Yes"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="scholarPresenceTrueActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="scholarPresenceFalse">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="No"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="scholarPresenceFalseActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="rankingWindow">
+          <Properties>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[720, 420]"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="177" max="-2" attributes="0"/>
+                              <Component id="rankingWindowTitle" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="322" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="rankingWindowExit" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="weightRankings" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="compareColleges" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="college1Name" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="college2Name" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="college3Name" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="college4Name" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="college5Name" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="matchScoreLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="college1Score" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="college2Score" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="college3Score" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="college4Score" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="college5Score" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="bestAreaLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="college1BestArea" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="college2BestArea" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="college3BestArea" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="college4BestArea" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="college5BestArea" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="college5WorstArea" min="-2" max="-2" attributes="0"/>
+                          <Component id="college4WorstArea" min="-2" max="-2" attributes="0"/>
+                          <Component id="college3WorstArea" min="-2" max="-2" attributes="0"/>
+                          <Component id="college2WorstArea" min="-2" max="-2" attributes="0"/>
+                          <Component id="college1WorstArea" min="-2" max="-2" attributes="0"/>
+                          <Component id="worstAreaLabel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                      <Component id="rankingWindowTitle" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="matchScoreLabel" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                          <Component id="bestAreaLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="worstAreaLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="college1Name" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="college1Score" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="college1BestArea" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="college1WorstArea" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="college2Name" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="college2Score" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="college2BestArea" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="college2WorstArea" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="college3Name" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="college3Score" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="college3BestArea" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="college3WorstArea" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="college4Name" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="college4Score" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="college4BestArea" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="college4WorstArea" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="college5Name" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="college5Score" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="college5BestArea" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="college5WorstArea" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="90" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="compareColleges" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="weightRankings" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rankingWindowExit" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="rankingWindowTitle">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Grande" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Your Top Colleges"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="college1Name">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="College1"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="college2Name">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="College2"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="college3Name">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="College3"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="college4Name">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="College4"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="college5Name">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="College5"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="college1Score">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="college1score"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="college2Score">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="college2score"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="college3Score">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="college3score"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="college4Score">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="college4score"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="college5Score">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="college5score"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="matchScoreLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Grande" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Overall Match Score"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="bestAreaLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Grande" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Best Area"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="college1BestArea">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="area1"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="college2BestArea">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="area2"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="college3BestArea">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="area3"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="college4BestArea">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="area4"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="college5BestArea">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="area5"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="worstAreaLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Grande" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Worst Area"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="college1WorstArea">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="area1"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="college2WorstArea">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="area2"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="college3WorstArea">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="area3"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="college4WorstArea">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="area4"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="college5WorstArea">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="area5"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="compareColleges">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Compare Colleges"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="compareCollegesActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="weightRankings">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Weight Rankings"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="weightRankingsActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="rankingWindowExit">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Exit"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rankingWindowExitActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="collegeInfoWindow">
+          <Properties>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[720, 420]"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="153" max="-2" attributes="0"/>
+                      <Component id="window2Title" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="186" max="-2" attributes="0"/>
+                              <Component id="window2Title2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="92" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="window2Question5" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="interestRate" min="-2" pref="411" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="percentSignLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="window2Question1" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="collegeName" min="-2" pref="348" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="window2Question4" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="workstudysMoney" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="window2Question3" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="loansMoney" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="window2Question2" min="-2" pref="176" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="grantsMoney" min="-2" pref="403" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="0" pref="68" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="window2Exit" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="247" max="32767" attributes="0"/>
+                          <Component id="addMoreColleges" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="finishAddingColleges" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="window2Title" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="collegeName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="window2Question1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="window2Title2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="window2Question2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="grantsMoney" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="window2Question3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="loansMoney" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="window2Question4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="workstudysMoney" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="window2Question5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="interestRate" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="percentSignLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="107" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace pref="385" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="addMoreColleges" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="finishAddingColleges" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="window2Exit" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="window2Question1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="College Full Name:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="window2Title2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Financial Aid Package Information"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="window2Question2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Amount in grants (per year):"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="window2Question3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Amount in loans (per year):"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="window2Question4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Amount in work-study (per year):"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="window2Question5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Interest rate on loans:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="collegeName">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="collegeNameActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="grantsMoney">
+            </Component>
+            <Component class="javax.swing.JTextField" name="loansMoney">
+            </Component>
+            <Component class="javax.swing.JTextField" name="workstudysMoney">
+            </Component>
+            <Component class="javax.swing.JTextField" name="interestRate">
+            </Component>
+            <Component class="javax.swing.JButton" name="addMoreColleges">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Add another college"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addMoreCollegesActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="finishAddingColleges">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Finished Adding Colleges"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="finishAddingCollegesActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="window2Exit">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Exit"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="window2ExitActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="window2Title">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Grande" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Input College-Specific Information"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="percentSignLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="%"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="tooManyButtonsErrorWindow">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace pref="253" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="ErrorTitle3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="321" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="errorMessageAcknowledge3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="313" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="blankFieldErrorMessage1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="217" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="151" max="-2" attributes="0"/>
+                      <Component id="ErrorTitle3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="blankFieldErrorMessage1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="errorMessageAcknowledge3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="164" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="ErrorTitle3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Grande" size="24" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Error"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="blankFieldErrorMessage1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Please choose exactly 2 college options"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="errorMessageAcknowledge3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Okay"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="errorMessageAcknowledge3ActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="CollegesToCompareWindow">
+          <Properties>
+            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[720, 420]"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="compareCollegesImplement" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="166" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                              <Component id="collegesToCompareQuestion" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="college1Option" min="-2" max="-2" attributes="0"/>
+                          <Component id="college2Option" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="college3Option" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="college4Option" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="college5Option" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="college6Option" min="-2" max="-2" attributes="0"/>
+                                  <Component id="college7Option" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="miscCollege2" max="32767" attributes="0"/>
+                                  <Component id="miscCollege1" min="-2" pref="293" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="canAddOthersInfo" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="196" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                      <Component id="collegesToCompareQuestion" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="college1Option" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="college2Option" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="college3Option" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="college4Option" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="college5Option" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                      <Component id="canAddOthersInfo" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="college6Option" min="-2" max="-2" attributes="0"/>
+                          <Component id="miscCollege1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="miscCollege2" min="-2" max="-2" attributes="0"/>
+                          <Component id="college7Option" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="63" max="32767" attributes="0"/>
+                      <Component id="compareCollegesImplement" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="collegesToCompareQuestion">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Which two colleges would you like to compare?"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="miscCollege1">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="college1Option">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jRadioButton1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="college1OptionActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="college2Option">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jRadioButton2"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="college3Option">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jRadioButton3"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="college4Option">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jRadioButton4"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="college5Option">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jRadioButton5"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="miscCollege2">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="college6Option">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="college6OptionActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="college7Option">
+            </Component>
+            <Component class="javax.swing.JLabel" name="canAddOthersInfo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="You can also compare a college that is not a top 5 match"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="compareCollegesImplement">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Compare Colleges"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="compareCollegesImplementActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="collegeNotFoundErrorWindow">
+          <Properties>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[720, 420]"/>
+            </Property>
+            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[720, 420]"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace pref="177" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="ErrorTitle4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="321" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="errorMessageAcknowledge4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="313" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="collegeNotFoundErrorMessage" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="165" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="151" max="-2" attributes="0"/>
+                      <Component id="ErrorTitle4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="collegeNotFoundErrorMessage" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="errorMessageAcknowledge4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="164" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="ErrorTitle4">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Grande" size="24" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Error"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="collegeNotFoundErrorMessage">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="College not found. Check that you have inputted it correctly"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="errorMessageAcknowledge4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Okay"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="errorMessageAcknowledge4ActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
